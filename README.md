@@ -4,13 +4,22 @@ This project demonstrates how to run the L4Re microkernel (Fiasco.OC) on the Xil
 
 **Hardware Requirements**
 Xilinx Zybo (Zynq-7000) board
+
 SD card (8GB+ recommended)
+
 USB-UART adapter (optional, for serial debug)
+
 
 **Software Requirements**
 Ubuntu 20.04+ (or any Linux distro with necessary tools)
+
 L4Re/Fiasco Source Code
+
 Xilinx Vivado (for FPGA bitstream if needed)
+
 ARM GCC Toolchain (e.g., arm-none-eabi-gcc)
+
 U-Boot for Zynq
+
 qemu-arm-static (for testing)
+
