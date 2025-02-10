@@ -1,0 +1,3 @@
+PHYS_RELOC_DIR_LIST += /home/ijyothi/build-zynq/pkg/bootstrap/server/src
+PHYS_RELOC_DIR_LIST += /home/ijyothi/build-zynq/pkg/l4re-core/moe/server/src
+PHYS_RELOC_DIR_LIST += /home/ijyothi/build-zynq/pkg/l4re-core/sigma0/server/src

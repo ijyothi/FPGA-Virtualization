@@ -1,0 +1,16 @@
+hello-cfg '0' '' '/home/ijyothi/build-fiasco-arm /home/ijyothi/l4linux /home/ijyothi/l4/conf/examples /home/ijyothi/build-l4linux /home/ijyothi/l4/pkg    :/home/ijyothi/build-zynq/bin/arm_armv7a/plain:/home/ijyothi/build-zynq/bin/arm_armv7a/l4f:/home/ijyothi/build-zynq/lib/arm_armv7a/std/plain:/home/ijyothi/build-zynq/lib/arm_armv7a/std/l4f:/home/ijyothi/build-zynq/assets' '1024' 'zedboard' '1' '' '' '  0x1000000' ''
+modaddr=0x01100000
+bootstrap
+bootstrap -modaddr 0x01100000
+axi.vbus
+fiasco -serial_esc
+hello-2.cfg
+hello_axi
+io
+io_axi.cfg
+l4re
+moe rom/hello-2.cfg
+ned
+sigma0
+sigma0
+axi.vbus0 fiasco1 hello-2.cfg0 hello_axi0 io0 io_axi.cfg0 l4re0 moe3 ned0 sigma00 sigma02

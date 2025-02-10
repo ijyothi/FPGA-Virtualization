@@ -1,0 +1,7 @@
+incdir=/empty_incdir
+Name: zlib
+Version: 0
+Description: L4 library
+Cflags: -I${incdir}/zlib 
+Libs: -ll4z
+Requires:      

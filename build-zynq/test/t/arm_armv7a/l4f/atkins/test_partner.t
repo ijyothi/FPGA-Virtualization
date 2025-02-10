@@ -1,0 +1,1 @@
+/home/ijyothi/build-zynq/pkg/atkins/selftest/OBJ-arm_armv7a-std-l4f/test_partner.t

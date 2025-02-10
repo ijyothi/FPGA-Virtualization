@@ -1,0 +1,352 @@
+# Automatically Kconfig for provided packages
+#
+# Mo 3. Jun 14:46:33 CEST 2024
+#
+config HAVE_BIDPC_LIBC_BE_MINIMAL_LOG_IO
+	bool
+	default y
+
+config HAVE_BIDPC_LIBSTDCPLUSPLUS_HEADERS
+	bool
+	default y
+
+config HAVE_BIDPC_LIBATOMIC
+	bool
+	default y
+
+config HAVE_BIDPC_CXX_IO_KDEBUG
+	bool
+	default y
+
+config HAVE_BIDPC_LIBSTDCPLUSPLUS
+	bool
+	default y
+
+config HAVE_BIDPC_CXX_LIBC_IO
+	bool
+	default y
+
+config HAVE_BIDPC_LIBPTHREAD
+	bool
+	default y
+
+config HAVE_BIDPC_LIBC_SUPPORT_MISC
+	bool
+	default y
+
+config HAVE_BIDPC_LIBBLOCK_DEVICE
+	bool
+	default y
+
+config HAVE_BIDPC_LDSCRIPTS
+	bool
+	default y
+
+config HAVE_BIDPC_L4VIRTIO
+	bool
+	default y
+
+config HAVE_BIDPC_L4RE_UTIL
+	bool
+	default y
+
+config HAVE_BIDPC_LIBFDT
+	bool
+	default y
+
+config HAVE_BIDPC_LIBC_BE_FS_NOOP
+	bool
+	default y
+
+config HAVE_BIDPC_LIBSTDCPLUSPLUS_MINIMAL
+	bool
+	default y
+
+config HAVE_BIDPC_LIBGTEST
+	bool
+	default y
+
+config HAVE_BIDPC_LIBC_BE_MATH
+	bool
+	default y
+
+config HAVE_BIDPC_LIBGCC_PURE
+	bool
+	default y
+
+config HAVE_BIDPC_LIBUNWIND_LLVM_PURE
+	bool
+	default y
+
+config HAVE_BIDPC_COMPILER_RT
+	bool
+	default y
+
+config HAVE_BIDPC_LIBGMOCK
+	bool
+	default y
+
+config HAVE_BIDPC_NED
+	bool
+	default y
+
+config HAVE_BIDPC_LIBC_MINIMAL_L4RE
+	bool
+	default y
+
+config HAVE_BIDPC_LUAPLUSPLUS
+	bool
+	default y
+
+config HAVE_BIDPC_LIBC_BE_SEM_NOOP
+	bool
+	default y
+
+config HAVE_BIDPC_LIBSUPCPLUSPLUS
+	bool
+	default y
+
+config HAVE_BIDPC_LIBUNWIND_LLVM
+	bool
+	default y
+
+config HAVE_BIDPC_LIBEFI
+	bool
+	default y
+
+config HAVE_BIDPC_CXX_BASE
+	bool
+	default y
+
+config HAVE_BIDPC_LIBC_BE_SIG
+	bool
+	default y
+
+config HAVE_BIDPC_CXX_IO_E
+	bool
+	default y
+
+config HAVE_BIDPC_LIBIO_VBUS
+	bool
+	default y
+
+config HAVE_BIDPC_LIBGCC_CRT
+	bool
+	default y
+
+config HAVE_BIDPC_LIBMOUNT
+	bool
+	default y
+
+config HAVE_BIDPC_L4UTIL
+	bool
+	default y
+
+config HAVE_BIDPC_LDSO
+	bool
+	default y
+
+config HAVE_BIDPC_ACPICA
+	bool
+	default y
+
+config HAVE_BIDPC_LIBSUPCPLUSPLUS_MINIMAL
+	bool
+	default y
+
+config HAVE_BIDPC_ATKINS
+	bool
+	default y
+
+config HAVE_BIDPC_LIBIO_IO
+	bool
+	default y
+
+config HAVE_BIDPC_L4SYS_L4X
+	bool
+	default y
+
+config HAVE_BIDPC_CXX_UTIL_E
+	bool
+	default y
+
+config HAVE_BIDPC_LIBC_BE_L4REFILE
+	bool
+	default y
+
+config HAVE_BIDPC_LIBVCPU
+	bool
+	default y
+
+config HAVE_BIDPC_READLINE
+	bool
+	default y
+
+config HAVE_BIDPC_LIBGNUEFI
+	bool
+	default y
+
+config HAVE_BIDPC_L4SYS
+	bool
+	default y
+
+config HAVE_BIDPC_L4VIRTIO_SERVER
+	bool
+	default y
+
+config HAVE_BIDPC_LIBGCC_EH
+	bool
+	default y
+
+config HAVE_BIDPC_LIBC_BE_L4RE
+	bool
+	default y
+
+config HAVE_BIDPC_LIBGCC_EH_HEADERS
+	bool
+	default y
+
+config HAVE_BIDPC_L4RE_C
+	bool
+	default y
+
+config HAVE_BIDPC_LIBKPROXY
+	bool
+	default y
+
+config HAVE_BIDPC_LIBC
+	bool
+	default y
+
+config HAVE_BIDPC_CXX_BASE_E
+	bool
+	default y
+
+config HAVE_BIDPC_LIBC_HEADERS
+	bool
+	default y
+
+config HAVE_BIDPC_LIBIO_DIRECT
+	bool
+	default y
+
+config HAVE_BIDPC_LIBCLANG_RT_CRT
+	bool
+	default y
+
+config HAVE_BIDPC_L4RE_C_UTIL
+	bool
+	default y
+
+config HAVE_BIDPC_LIBDRIVERS_NAND
+	bool
+	default y
+
+config HAVE_BIDPC_LIBINITCWD
+	bool
+	default y
+
+config HAVE_BIDPC_DRIVERS_FRST
+	bool
+	default y
+
+config HAVE_BIDPC_LIBCLANG_RT_BUILTINS
+	bool
+	default y
+
+config HAVE_BIDPC_LIBGCC_EH_PURE
+	bool
+	default y
+
+config HAVE_BIDPC_CXX_UTIL
+	bool
+	default y
+
+config HAVE_BIDPC_DRIVERS_OF
+	bool
+	default y
+
+config HAVE_BIDPC_LUA
+	bool
+	default y
+
+config HAVE_BIDPC_ZLIB
+	bool
+	default y
+
+config HAVE_BIDPC_LIBC_BE_SOCKET_NOOP
+	bool
+	default y
+
+config HAVE_BIDPC_LIBC_MINIMAL
+	bool
+	default y
+
+config HAVE_BIDPC_LIBLOADER
+	bool
+	default y
+
+config HAVE_BIDPC_CXX_ATEXIT_E
+	bool
+	default y
+
+config HAVE_BIDPC_CRTN
+	bool
+	default y
+
+config HAVE_BIDPC_LIBL4RE_VFS
+	bool
+	default y
+
+config HAVE_BIDPC_CXX_IO_KDEBUG_E
+	bool
+	default y
+
+config HAVE_BIDPC_LIBGCC
+	bool
+	default y
+
+config HAVE_BIDPC_COMPILER_RT_CRT
+	bool
+	default y
+
+config HAVE_BIDPC_LIBSIGMA0
+	bool
+	default y
+
+config HAVE_BIDPC_ABC
+	bool
+	default y
+
+config HAVE_BIDPC_CXX_IO
+	bool
+	default y
+
+config HAVE_BIDPC_LIBC_BE_SIG_NOOP
+	bool
+	default y
+
+config HAVE_BIDPC_LIBCLANG_RT_BUILTINS_PURE
+	bool
+	default y
+
+config HAVE_BIDPC_L4RE
+	bool
+	default y
+
+config HAVE_BIDPC_LIBDL
+	bool
+	default y
+
+config HAVE_BIDPC_CXX_ATEXIT
+	bool
+	default y
+
+config HAVE_BIDPC_DRIVERS_UART
+	bool
+	default y
+
+config HAVE_BIDPC_COMPILER_RT_PURE
+	bool
+	default y
+

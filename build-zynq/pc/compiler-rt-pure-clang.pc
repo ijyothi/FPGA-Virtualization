@@ -1,0 +1,4 @@
+Name: compiler-rt-pure-clang
+Version: 0
+Description: Alias Dependency Package
+Requires: libclang_rt-builtins-pure libunwind_llvm-pure

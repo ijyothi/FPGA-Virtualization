@@ -1,0 +1,8 @@
+Name: cxx_libc_io_e
+Version: 0
+Description: L4 library
+
+Libs: -lcxx_libc_io_e
+Requires:      
+Link_Libs= %{static|static-pie:-lcxx_libc_io} 
+Libs_pic= -lcxx_libc_io.p -lcxx_libc_io_e.p

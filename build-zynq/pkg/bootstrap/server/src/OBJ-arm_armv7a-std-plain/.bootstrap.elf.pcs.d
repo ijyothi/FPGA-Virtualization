@@ -1,0 +1,11 @@
+bootstrap.elf: /home/ijyothi/build-zynq/pc/cxx_base.pc /home/ijyothi/build-zynq/pc/cxx_io.pc /home/ijyothi/build-zynq/pc/libc_minimal.pc /home/ijyothi/l4/mk/bid-bender.spec /home/ijyothi/build-zynq/pc/compiler-rt-pure.pc /home/ijyothi/build-zynq/pc/libfdt.pc /home/ijyothi/build-zynq/pc/compiler-rt-pure-gcc.pc /home/ijyothi/build-zynq/pc/drivers_uart.pc /home/ijyothi/build-zynq/pc/libgcc_eh-pure.pc /home/ijyothi/build-zynq/pc/libgcc-pure.pc
+/home/ijyothi/build-zynq/pc/cxx_base.pc:
+/home/ijyothi/build-zynq/pc/cxx_io.pc:
+/home/ijyothi/build-zynq/pc/libc_minimal.pc:
+/home/ijyothi/l4/mk/bid-bender.spec:
+/home/ijyothi/build-zynq/pc/compiler-rt-pure.pc:
+/home/ijyothi/build-zynq/pc/libfdt.pc:
+/home/ijyothi/build-zynq/pc/compiler-rt-pure-gcc.pc:
+/home/ijyothi/build-zynq/pc/drivers_uart.pc:
+/home/ijyothi/build-zynq/pc/libgcc_eh-pure.pc:
+/home/ijyothi/build-zynq/pc/libgcc-pure.pc:

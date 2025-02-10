@@ -1,0 +1,4 @@
+Name: compiler-rt-clang
+Version: 0
+Description: Alias Dependency Package
+Requires: libclang_rt-builtins libunwind_llvm

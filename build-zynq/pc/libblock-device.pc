@@ -1,0 +1,6 @@
+Name: libblock-device
+Version: 0
+Description: L4 library
+
+Libs: -lblock_device
+Requires: libstdc++      

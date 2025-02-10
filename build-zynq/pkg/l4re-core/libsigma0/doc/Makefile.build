@@ -1,0 +1,8 @@
+IN_OBJ_DIR=1
+L4DIR=/home/ijyothi/l4
+SRC_DIR=/home/ijyothi/l4/pkg/l4re-core/libsigma0/doc
+OBJ_BASE=/home/ijyothi/build-zynq
+PKGDIR_ABS=/home/ijyothi/l4/pkg/l4re-core/libsigma0
+vpath %.fig /home/ijyothi/l4/pkg/l4re-core/libsigma0/doc
+vpath %.tex /home/ijyothi/l4/pkg/l4re-core/libsigma0/doc
+include /home/ijyothi/l4/pkg/l4re-core/libsigma0/doc/Makefile

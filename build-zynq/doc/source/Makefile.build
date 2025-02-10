@@ -1,0 +1,8 @@
+IN_OBJ_DIR=1
+L4DIR=/home/ijyothi/l4
+SRC_DIR=/home/ijyothi/l4/doc/source
+OBJ_BASE=/home/ijyothi/build-zynq
+PKGDIR_ABS=/home/ijyothi/l4/doc/source
+vpath %.fig /home/ijyothi/l4/doc/source
+vpath %.tex /home/ijyothi/l4/doc/source
+include /home/ijyothi/l4/doc/source/Makefile

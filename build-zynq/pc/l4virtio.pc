@@ -1,0 +1,6 @@
+Name: l4virtio
+Version: 0
+Description: L4 library
+
+Libs: -ll4virtio
+Requires:      

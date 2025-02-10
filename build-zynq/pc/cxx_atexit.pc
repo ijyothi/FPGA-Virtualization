@@ -1,0 +1,8 @@
+Name: cxx_atexit
+Version: 0
+Description: L4 library
+
+Libs: -lcxx_atexit
+Requires:      
+
+Libs_pic= -lcxx_atexit.p -lcxx_atexit_e.p

@@ -1,0 +1,1 @@
+/home/ijyothi/build-zynq/pkg/l4re-core/ldscripts/OBJ-arm_armv7a-nofpu-plain/main_stat.ld

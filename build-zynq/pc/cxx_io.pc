@@ -1,0 +1,8 @@
+Name: cxx_io
+Version: 0
+Description: L4 library
+
+Libs: -lcxx_io
+Requires:      
+
+Libs_pic= -lcxx_io.p -lcxx_io_e.p

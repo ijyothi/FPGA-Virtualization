@@ -1,0 +1,7 @@
+incdir=/empty_incdir
+Name: libfdt
+Version: 0
+Description: L4 library
+Cflags: -I${incdir}/libfdt 
+Libs: -lfdt
+Requires:      

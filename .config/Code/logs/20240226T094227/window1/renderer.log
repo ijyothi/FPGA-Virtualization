@@ -1,0 +1,11 @@
+2024-02-26 09:42:33.238 [info] Started local extension host with pid 242086.
+2024-02-26 09:42:33.992 [info] Started initializing default profile extensions in extensions installation folder. file:///home/ijyothi/.vscode/extensions
+2024-02-26 09:42:36.539 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/ijyothi/.vscode/extensions
+2024-02-26 09:42:44.998 [info] [perf] Render performance baseline is 909ms
+2024-02-26 09:45:42.924 [info] Started local extension host with pid 242312.
+2024-02-26 09:45:51.907 [info] [perf] Render performance baseline is 273ms
+2024-02-26 09:46:49.170 [info] Extension host (LocalProcess pid: 242312) is unresponsive.
+2024-02-26 09:46:49.342 [info] Extension host (LocalProcess pid: 242312) is responsive.
+2024-02-26 09:46:51.062 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-02-26 09:46:54.430 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-02-26 09:46:56.140 [warning] UNRESPONSIVE extension host: 'james-yu.latex-workshop' took 48.03544557766259% of 54.587ms, saved PROFILE here: 'file:///tmp/exthost-2ced3a.cpuprofile'

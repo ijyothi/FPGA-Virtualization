@@ -1,0 +1,57 @@
+cons : /home/ijyothi/build-zynq/lib/arm_armv7a/std/plain/crtn.o \
+	/home/ijyothi/build-zynq/lib/arm_armv7a/std/plain/crtend.o \
+	/home/ijyothi/build-zynq/lib/arm_armv7a/std/l4f/libgcc_eh.a \
+	/home/ijyothi/build-zynq/lib/arm_armv7a/std/l4f/libl4sys.a \
+	/home/ijyothi/build-zynq/lib/arm_armv7a/std/l4f/libgcc.a \
+	/home/ijyothi/build-zynq/lib/arm_armv7a/std/l4f/libl4util.a \
+	/home/ijyothi/build-zynq/lib/arm_armv7a/std/l4f/lib4re.a \
+	/home/ijyothi/build-zynq/lib/arm_armv7a/std/l4f/lib4re-util.a \
+	/home/ijyothi/build-zynq/lib/arm_armv7a/std/l4f/libpthread.a \
+	/home/ijyothi/build-zynq/lib/arm_armv7a/std/l4f/libssp_nonshared.p.a \
+	/home/ijyothi/build-zynq/lib/arm_armv7a/std/l4f/libuc_c_nonshared.p.a \
+	/home/ijyothi/build-zynq/lib/arm_armv7a/std/l4f/libc.a \
+	/home/ijyothi/build-zynq/lib/arm_armv7a/std/l4f/libsupc++.a \
+	/home/ijyothi/build-zynq/lib/arm_armv7a/std/l4f/libl4re-vfs.o.a \
+	/home/ijyothi/build-zynq/lib/arm_armv7a/std/l4f/libc_be_l4re.a \
+	/home/ijyothi/build-zynq/lib/arm_armv7a/std/l4f/libc_be_l4refile.a \
+	/home/ijyothi/build-zynq/lib/arm_armv7a/std/plain/libcxx_io.a \
+	/home/ijyothi/build-zynq/lib/arm_armv7a/std/l4f/libcxx_libc_io.a \
+	/home/ijyothi/build-zynq/lib/arm_armv7a/std/l4f/libstdc++.a \
+	virtio_client.o registry.o vcon_fe.o vcon_fe_base.o vcon_client.o \
+	client.o main.o mux_impl.o controller.o \
+	/home/ijyothi/build-zynq/lib/arm_armv7a/std/plain/crtbeginT.o \
+	/home/ijyothi/build-zynq/lib/arm_armv7a/std/plain/crti.o \
+	/home/ijyothi/build-zynq/lib/arm_armv7a/std/plain/crt1.o \
+	/home/ijyothi/build-zynq/lib/arm_armv7a/std/plain/main_stat.ld 
+/home/ijyothi/build-zynq/lib/arm_armv7a/std/plain/crtn.o:
+/home/ijyothi/build-zynq/lib/arm_armv7a/std/plain/crtend.o:
+/home/ijyothi/build-zynq/lib/arm_armv7a/std/l4f/libgcc_eh.a:
+/home/ijyothi/build-zynq/lib/arm_armv7a/std/l4f/libl4sys.a:
+/home/ijyothi/build-zynq/lib/arm_armv7a/std/l4f/libgcc.a:
+/home/ijyothi/build-zynq/lib/arm_armv7a/std/l4f/libl4util.a:
+/home/ijyothi/build-zynq/lib/arm_armv7a/std/l4f/lib4re.a:
+/home/ijyothi/build-zynq/lib/arm_armv7a/std/l4f/lib4re-util.a:
+/home/ijyothi/build-zynq/lib/arm_armv7a/std/l4f/libpthread.a:
+/home/ijyothi/build-zynq/lib/arm_armv7a/std/l4f/libssp_nonshared.p.a:
+/home/ijyothi/build-zynq/lib/arm_armv7a/std/l4f/libuc_c_nonshared.p.a:
+/home/ijyothi/build-zynq/lib/arm_armv7a/std/l4f/libc.a:
+/home/ijyothi/build-zynq/lib/arm_armv7a/std/l4f/libsupc++.a:
+/home/ijyothi/build-zynq/lib/arm_armv7a/std/l4f/libl4re-vfs.o.a:
+/home/ijyothi/build-zynq/lib/arm_armv7a/std/l4f/libc_be_l4re.a:
+/home/ijyothi/build-zynq/lib/arm_armv7a/std/l4f/libc_be_l4refile.a:
+/home/ijyothi/build-zynq/lib/arm_armv7a/std/plain/libcxx_io.a:
+/home/ijyothi/build-zynq/lib/arm_armv7a/std/l4f/libcxx_libc_io.a:
+/home/ijyothi/build-zynq/lib/arm_armv7a/std/l4f/libstdc++.a:
+virtio_client.o:
+registry.o:
+vcon_fe.o:
+vcon_fe_base.o:
+vcon_client.o:
+client.o:
+main.o:
+mux_impl.o:
+controller.o:
+/home/ijyothi/build-zynq/lib/arm_armv7a/std/plain/crtbeginT.o:
+/home/ijyothi/build-zynq/lib/arm_armv7a/std/plain/crti.o:
+/home/ijyothi/build-zynq/lib/arm_armv7a/std/plain/crt1.o:
+/home/ijyothi/build-zynq/lib/arm_armv7a/std/plain/main_stat.ld:

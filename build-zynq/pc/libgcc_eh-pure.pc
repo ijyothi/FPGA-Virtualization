@@ -1,0 +1,7 @@
+incdir=/empty_incdir
+Name: libgcc_eh-pure
+Version: 0
+Description: L4 library
+Cflags: -I${incdir}/libgcc_eh 
+Requires:      
+Link_Libs= -lgcc_eh-pure 

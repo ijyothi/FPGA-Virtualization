@@ -1,0 +1,8 @@
+Name: cxx_util
+Version: 0
+Description: L4 library
+
+Libs: -lcxx_util
+Requires:      
+
+Libs_pic= -lcxx_util.p -lcxx_util_e.p

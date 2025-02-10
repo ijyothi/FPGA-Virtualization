@@ -1,0 +1,189 @@
+# Automatically generated Makefile for dependencies
+#
+# Do 15. Aug 12:31:27 CEST 2024
+#
+# compiler-rt requires compiler-rt-gcc
+.PHONY: compiler-rt
+compiler-rt: compiler-rt-gcc
+# compiler-rt-clang requires libclang_rt-builtins libunwind_llvm
+.PHONY: compiler-rt-clang
+compiler-rt-clang: pkg/l4re-core/libclang_rt pkg/l4re-core/libunwind_llvm
+# compiler-rt-crt requires compiler-rt-crt-gcc
+.PHONY: compiler-rt-crt
+compiler-rt-crt: compiler-rt-crt-gcc
+# compiler-rt-crt-clang requires libclang_rt-crt
+.PHONY: compiler-rt-crt-clang
+compiler-rt-crt-clang: pkg/l4re-core/libclang_rt-crt
+# compiler-rt-crt-gcc requires libgcc-crt
+.PHONY: compiler-rt-crt-gcc
+compiler-rt-crt-gcc: pkg/l4re-core/libgcc-crt
+# compiler-rt-gcc requires libgcc_eh libgcc
+.PHONY: compiler-rt-gcc
+compiler-rt-gcc: pkg/l4re-core/libgcc pkg/l4re-core/libgcc_eh
+# compiler-rt-pure requires compiler-rt-pure-gcc
+.PHONY: compiler-rt-pure
+compiler-rt-pure: compiler-rt-pure-gcc
+# compiler-rt-pure-clang requires libclang_rt-builtins-pure libunwind_llvm-pure
+.PHONY: compiler-rt-pure-clang
+compiler-rt-pure-clang: pkg/l4re-core/libclang_rt-pure pkg/l4re-core/libunwind_llvm-pure
+# compiler-rt-pure-gcc requires libgcc_eh-pure libgcc-pure
+.PHONY: compiler-rt-pure-gcc
+compiler-rt-pure-gcc: pkg/l4re-core/libgcc-pure pkg/l4re-core/libgcc_eh-pure
+# libio requires libio-io
+.PHONY: libio
+libio: pkg/io/libio-io
+# pkg/acpica requires l4re libc
+pkg/acpica: pkg/l4re-core/l4re pkg/l4re-core/uclibc
+# pkg/ahci-driver requires libblock-device libio-vbus stdlibs-all drivers-frst
+pkg/ahci-driver: pkg/drivers-frst pkg/libblock-device pkg/io/libvbus stdlibs-all
+# pkg/atkins requires stdlibs-sh libstdc++
+pkg/atkins: pkg/l4re-core/libstdc++-v3 stdlibs-sh
+# pkg/atkins optional libloader
+pkg/atkins: pkg/l4re-core/libloader
+# pkg/bootstrap requires drivers_uart libc_minimal l4util cxx_io libfdt
+pkg/bootstrap: pkg/l4re-core/cxx pkg/drivers-frst pkg/l4re-core/l4util pkg/l4re-core/uclibc-minimal pkg/libfdt
+# pkg/bootstrap optional libefi
+pkg/bootstrap: pkg/gnu-efi
+# pkg/braking requires stdlibs
+pkg/braking: stdlibs
+# pkg/cons requires stdlibs libstdc++ cxx_libc_io cxx_io l4virtio
+pkg/cons: pkg/l4re-core/cxx pkg/l4re-core/cxx_libc_io pkg/l4virtio pkg/l4re-core/libstdc++-v3 stdlibs
+# pkg/distance requires stdlibs
+pkg/distance: stdlibs
+# pkg/drivers-frst requires libc
+pkg/drivers-frst: pkg/l4re-core/uclibc
+# pkg/engine-music requires stdlibs
+pkg/engine-music: stdlibs
+# pkg/gnu-efi requires stdlibs
+pkg/gnu-efi: stdlibs
+# pkg/hello requires stdlibs
+pkg/hello: stdlibs
+# pkg/hello_axi requires stdlibs
+pkg/hello_axi: stdlibs
+# pkg/io/io requires libc libstdc++ l4sys libio-io libsigma0 stdlibs lua++ drivers-frst
+pkg/io/io: pkg/drivers-frst pkg/l4re-core/l4sys pkg/l4re-core/uclibc pkg/io/libio-io pkg/l4re-core/libsigma0 pkg/l4re-core/libstdc++-v3 pkg/l4re-core/lua stdlibs
+# pkg/io/libio-direct requires libc l4re l4util libsigma0 libio-vbus libsupc++_minimal
+pkg/io/libio-direct: pkg/l4re-core/l4re pkg/l4re-core/l4util pkg/l4re-core/uclibc pkg/io/libvbus pkg/l4re-core/libsigma0 pkg/l4re-core/libsupc++-minimal
+# pkg/io/libio-io requires libio-vbus l4re
+pkg/io/libio-io: pkg/l4re-core/l4re pkg/io/libvbus
+# pkg/io/libvbus requires l4sys l4re l4util cxx_io
+pkg/io/libvbus: pkg/l4re-core/cxx pkg/l4re-core/l4re pkg/l4re-core/l4sys pkg/l4re-core/l4util
+# pkg/l4re-core/compiler-rt requires libgcc libgcc_eh libclang_rt-builtins libunwind_llvm
+pkg/l4re-core/compiler-rt: pkg/l4re-core/libclang_rt pkg/l4re-core/libgcc pkg/l4re-core/libgcc_eh pkg/l4re-core/libunwind_llvm
+# pkg/l4re-core/compiler-rt-crt requires libgcc-crt libclang_rt-crt
+pkg/l4re-core/compiler-rt-crt: pkg/l4re-core/libclang_rt-crt pkg/l4re-core/libgcc-crt
+# pkg/l4re-core/compiler-rt-pure requires libgcc-pure libgcc_eh-pure libclang_rt-builtins-pure libunwind_llvm-pure
+pkg/l4re-core/compiler-rt-pure: pkg/l4re-core/libclang_rt-pure pkg/l4re-core/libgcc-pure pkg/l4re-core/libgcc_eh-pure pkg/l4re-core/libunwind_llvm-pure
+# pkg/l4re-core/cxx requires l4sys l4util libstdc++-headers
+pkg/l4re-core/cxx: pkg/l4re-core/l4sys pkg/l4re-core/l4util pkg/l4re-core/libstdc++-headers
+# pkg/l4re-core/cxx_libc_io requires cxx_io libc-headers libstdc++-headers
+pkg/l4re-core/cxx_libc_io: pkg/l4re-core/cxx pkg/l4re-core/uclibc-headers pkg/l4re-core/libstdc++-headers
+# pkg/l4re-core/l4re requires crtn compiler-rt l4util cxx_libc_io libstdc++-headers ldscripts
+pkg/l4re-core/l4re: pkg/l4re-core/compiler-rt pkg/l4re-core/crtn pkg/l4re-core/cxx_libc_io pkg/l4re-core/l4util pkg/l4re-core/ldscripts pkg/l4re-core/libstdc++-headers
+# pkg/l4re-core/l4re_c requires l4re
+pkg/l4re-core/l4re_c: pkg/l4re-core/l4re
+# pkg/l4re-core/l4re_kernel requires l4re-util libc_minimal libsupc++_minimal libloader libc_be_minimal_log_io libc_minimal_l4re
+pkg/l4re-core/l4re_kernel: pkg/l4re-core/l4re pkg/l4re-core/libc_backends pkg/l4re-core/uclibc-minimal pkg/l4re-core/uclibc pkg/l4re-core/libloader pkg/l4re-core/libsupc++-minimal
+# pkg/l4re-core/l4re_vfs requires l4re l4re-util libsupc++
+pkg/l4re-core/l4re_vfs: pkg/l4re-core/l4re pkg/l4re-core/l4re pkg/l4re-core/libsupc++
+# pkg/l4re-core/l4sys requires ldscripts compiler-rt-pure
+pkg/l4re-core/l4sys: pkg/l4re-core/compiler-rt-pure pkg/l4re-core/ldscripts
+# pkg/l4re-core/l4util requires l4sys compiler-rt libc-headers
+pkg/l4re-core/l4util: pkg/l4re-core/compiler-rt pkg/l4re-core/l4sys pkg/l4re-core/uclibc-headers
+# pkg/l4re-core/ldscripts requires compiler-rt-crt
+pkg/l4re-core/ldscripts: pkg/l4re-core/compiler-rt-crt
+# pkg/l4re-core/ldso requires libl4re-vfs libc
+pkg/l4re-core/ldso: pkg/l4re-core/uclibc pkg/l4re-core/l4re_vfs
+# pkg/l4re-core/libatomic requires libc-headers l4sys
+pkg/l4re-core/libatomic: pkg/l4re-core/l4sys pkg/l4re-core/uclibc-headers
+# pkg/l4re-core/libc_backends requires l4re libsupc++ libl4re-vfs
+pkg/l4re-core/libc_backends: pkg/l4re-core/l4re pkg/l4re-core/l4re_vfs pkg/l4re-core/libsupc++
+# pkg/l4re-core/libclang_rt requires libc-headers ldscripts l4sys
+pkg/l4re-core/libclang_rt: pkg/l4re-core/l4sys pkg/l4re-core/ldscripts pkg/l4re-core/uclibc-headers
+# pkg/l4re-core/libclang_rt-crt requires libc-headers
+pkg/l4re-core/libclang_rt-crt: pkg/l4re-core/uclibc-headers
+# pkg/l4re-core/libclang_rt-pure requires libc-headers ldscripts
+pkg/l4re-core/libclang_rt-pure: pkg/l4re-core/ldscripts pkg/l4re-core/uclibc-headers
+# pkg/l4re-core/libgcc requires libc-headers ldscripts l4sys
+pkg/l4re-core/libgcc: pkg/l4re-core/l4sys pkg/l4re-core/ldscripts pkg/l4re-core/uclibc-headers
+# pkg/l4re-core/libgcc-pure requires ldscripts
+pkg/l4re-core/libgcc-pure: pkg/l4re-core/ldscripts
+# pkg/l4re-core/libgcc_eh requires libc-headers ldscripts l4sys libgcc_eh-headers
+pkg/l4re-core/libgcc_eh: pkg/l4re-core/l4sys pkg/l4re-core/ldscripts pkg/l4re-core/uclibc-headers pkg/l4re-core/libgcc_eh-headers
+# pkg/l4re-core/libgcc_eh-pure requires libc-headers ldscripts libgcc_eh-headers
+pkg/l4re-core/libgcc_eh-pure: pkg/l4re-core/ldscripts pkg/l4re-core/uclibc-headers pkg/l4re-core/libgcc_eh-headers
+# pkg/l4re-core/libkproxy requires l4sys cxx_base l4re-util
+pkg/l4re-core/libkproxy: pkg/l4re-core/cxx pkg/l4re-core/l4re pkg/l4re-core/l4sys
+# pkg/l4re-core/libloader requires l4sys l4util ldscripts l4re
+pkg/l4re-core/libloader: pkg/l4re-core/l4re pkg/l4re-core/l4sys pkg/l4re-core/l4util pkg/l4re-core/ldscripts
+# pkg/l4re-core/libsigma0 requires l4sys compiler-rt
+pkg/l4re-core/libsigma0: pkg/l4re-core/compiler-rt pkg/l4re-core/l4sys
+# pkg/l4re-core/libstdc++-v3 requires libsupc++ libstdc++-headers
+pkg/l4re-core/libstdc++-v3: pkg/l4re-core/libstdc++-headers pkg/l4re-core/libsupc++
+# pkg/l4re-core/libstdc++-v3-minimal requires libsupc++_minimal libstdc++-headers
+pkg/l4re-core/libstdc++-v3-minimal: pkg/l4re-core/libstdc++-headers pkg/l4re-core/libsupc++-minimal
+# pkg/l4re-core/libsupc++ requires libstdc++-headers libc libpthread cxx_base
+pkg/l4re-core/libsupc++: pkg/l4re-core/cxx pkg/l4re-core/uclibc pkg/l4re-core/uclibc pkg/l4re-core/libstdc++-headers
+# pkg/l4re-core/libsupc++-minimal requires libstdc++-headers libc_minimal l4sys cxx_base
+pkg/l4re-core/libsupc++-minimal: pkg/l4re-core/cxx pkg/l4re-core/l4sys pkg/l4re-core/uclibc-minimal pkg/l4re-core/libstdc++-headers
+# pkg/l4re-core/libunwind_llvm requires libc-headers ldscripts l4sys
+pkg/l4re-core/libunwind_llvm: pkg/l4re-core/l4sys pkg/l4re-core/ldscripts pkg/l4re-core/uclibc-headers
+# pkg/l4re-core/libunwind_llvm-pure requires libc-headers ldscripts
+pkg/l4re-core/libunwind_llvm-pure: pkg/l4re-core/ldscripts pkg/l4re-core/uclibc-headers
+# pkg/l4re-core/lua requires stdlibs
+pkg/l4re-core/lua: stdlibs
+# pkg/l4re-core/moe requires l4re l4sys libc_minimal libsupc++_minimal libsigma0 libloader libkproxy libc_be_minimal_log_io
+pkg/l4re-core/moe: pkg/l4re-core/l4re pkg/l4re-core/l4sys pkg/l4re-core/libc_backends pkg/l4re-core/uclibc-minimal pkg/l4re-core/libkproxy pkg/l4re-core/libloader pkg/l4re-core/libsigma0 pkg/l4re-core/libsupc++-minimal
+# pkg/l4re-core/ned requires stdlibs libc libsupc++ libloader l4re-util lua++
+pkg/l4re-core/ned: pkg/l4re-core/l4re pkg/l4re-core/uclibc pkg/l4re-core/libloader pkg/l4re-core/libsupc++ pkg/l4re-core/lua stdlibs
+# pkg/l4re-core/ned optional readline
+pkg/l4re-core/ned: pkg/readline
+# pkg/l4re-core/sigma0 requires libc_minimal crtn l4sys l4util libsigma0 cxx_io
+pkg/l4re-core/sigma0: pkg/l4re-core/crtn pkg/l4re-core/cxx pkg/l4re-core/l4sys pkg/l4re-core/l4util pkg/l4re-core/uclibc-minimal pkg/l4re-core/libsigma0
+# pkg/l4re-core/uclibc requires l4sys l4re ldscripts compiler-rt
+pkg/l4re-core/uclibc: pkg/l4re-core/compiler-rt pkg/l4re-core/l4re pkg/l4re-core/l4sys pkg/l4re-core/ldscripts
+# pkg/l4re-core/uclibc-minimal requires libc-headers ldscripts compiler-rt-pure
+pkg/l4re-core/uclibc-minimal: pkg/l4re-core/compiler-rt-pure pkg/l4re-core/ldscripts pkg/l4re-core/uclibc-headers
+# pkg/l4virtio requires l4re l4sys libc-headers libstdc++-headers cxx_util cxx_base
+pkg/l4virtio: pkg/l4re-core/cxx pkg/l4re-core/cxx pkg/l4re-core/l4re pkg/l4re-core/l4sys pkg/l4re-core/uclibc-headers pkg/l4re-core/libstdc++-headers
+# pkg/libblock-device requires libstdc++ l4virtio
+pkg/libblock-device: pkg/l4virtio pkg/l4re-core/libstdc++-v3
+# pkg/libfdt requires libc
+pkg/libfdt: pkg/l4re-core/uclibc
+# pkg/libvcpu requires l4re-util libc
+pkg/libvcpu: pkg/l4re-core/l4re pkg/l4re-core/uclibc
+# pkg/nvme-driver requires libblock-device libio-vbus stdlibs-all drivers-frst
+pkg/nvme-driver: pkg/drivers-frst pkg/libblock-device pkg/io/libvbus stdlibs-all
+# pkg/readline requires libc
+pkg/readline: pkg/l4re-core/uclibc
+# pkg/server-client requires stdlibs
+pkg/server-client: stdlibs
+# pkg/time requires stdlibs
+pkg/time: stdlibs
+# pkg/virtio-net requires libstdc++ stdlibs l4virtio-server
+pkg/virtio-net: pkg/l4virtio pkg/l4re-core/libstdc++-v3 stdlibs
+# pkg/virtio-net-switch requires libstdc++ stdlibs l4virtio-server
+pkg/virtio-net-switch: pkg/l4virtio pkg/l4re-core/libstdc++-v3 stdlibs
+# pkg/watchdog requires stdlibs
+pkg/watchdog: stdlibs
+# pkg/zlib requires libc
+pkg/zlib: pkg/l4re-core/uclibc
+# stdlibs requires stdlibs-all libl4re-vfs
+.PHONY: stdlibs
+stdlibs: pkg/l4re-core/l4re_vfs stdlibs-all
+# stdlibs-all requires l4sys l4re l4re-util libc_be_l4refile libc_be_l4re
+.PHONY: stdlibs-all
+stdlibs-all: pkg/l4re-core/l4re pkg/l4re-core/l4re pkg/l4re-core/l4sys pkg/l4re-core/libc_backends pkg/l4re-core/libc_backends
+# stdlibs-sh requires stdlibs-all ldso libdl libc_support_misc libc_be_socket_noop
+.PHONY: stdlibs-sh
+stdlibs-sh: pkg/l4re-core/ldso pkg/l4re-core/libc_backends pkg/l4re-core/libc_backends pkg/l4re-core/ldso stdlibs-all
+
+# project targets
+pkg: pkg/io
+pkg/io: pkg/io/libio pkg/io/io pkg/io/libio-io pkg/io/libio-direct pkg/io/libvbus
+pkg: pkg/cons pkg/hello pkg/atkins pkg/hello_axi pkg/libblock-device pkg/time pkg/ahci-driver pkg/watchdog pkg/virtio-net-switch pkg/distance pkg/acpica pkg/readline pkg/engine-music pkg/gnu-efi pkg/l4virtio pkg/bootstrap pkg/libvcpu pkg/virtio-net pkg/server-client pkg/braking pkg/drivers-frst pkg/zlib pkg/libfdt pkg/nvme-driver
+pkg: pkg/l4re-core
+pkg/l4re-core: pkg/l4re-core/libsupc++ pkg/l4re-core/cxx_libc_io pkg/l4re-core/libstdc++-v3-minimal pkg/l4re-core/libloader pkg/l4re-core/libgcc_eh-headers pkg/l4re-core/compiler-rt pkg/l4re-core/sigma0 pkg/l4re-core/compiler-rt-crt pkg/l4re-core/ned pkg/l4re-core/compiler-rt-pure pkg/l4re-core/libunwind_llvm-pure pkg/l4re-core/libgcc_eh-pure pkg/l4re-core/libsigma0 pkg/l4re-core/libgcc-crt pkg/l4re-core/l4re_kernel pkg/l4re-core/libsupc++-minimal pkg/l4re-core/l4re_vfs pkg/l4re-core/ldscripts pkg/l4re-core/cxx pkg/l4re-core/crtn pkg/l4re-core/libc_backends pkg/l4re-core/uclibc pkg/l4re-core/l4util pkg/l4re-core/uclibc-minimal pkg/l4re-core/libgcc_eh pkg/l4re-core/l4sys pkg/l4re-core/libstdc++-v3 pkg/l4re-core/libunwind_llvm pkg/l4re-core/l4re_c pkg/l4re-core/moe pkg/l4re-core/libkproxy pkg/l4re-core/uclibc-headers pkg/l4re-core/libgcc pkg/l4re-core/lua pkg/l4re-core/libclang_rt-crt pkg/l4re-core/libclang_rt-pure pkg/l4re-core/l4re pkg/l4re-core/libgcc-pure pkg/l4re-core/libstdc++-headers pkg/l4re-core/ldso pkg/l4re-core/libatomic pkg/l4re-core/libclang_rt
+
+# pakages w/o deps
+.PHONY: pkg/io/libio pkg/l4re-core/crtn pkg/l4re-core/libgcc-crt pkg/l4re-core/libgcc_eh-headers pkg/l4re-core/libstdc++-headers pkg/l4re-core/uclibc-headers

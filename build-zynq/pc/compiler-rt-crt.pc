@@ -1,0 +1,4 @@
+Name: compiler-rt-crt
+Version: 0
+Description: Alias Dependency Package
+Requires: compiler-rt-crt-gcc

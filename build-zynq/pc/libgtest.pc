@@ -1,0 +1,7 @@
+incdir=/empty_incdir
+Name: libgtest
+Version: 0
+Description: L4 library
+Cflags: -I${incdir}/libgtest  -DGTEST_OS_L4RE=1
+Libs: -lgtest
+Requires: libstdc++ libpthread      

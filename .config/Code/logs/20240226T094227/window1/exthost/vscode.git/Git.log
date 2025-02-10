@@ -1,0 +1,71 @@
+2024-02-26 09:42:39.271 [info] Log level: Info
+2024-02-26 09:42:39.271 [info] Validating found git in: "git"
+2024-02-26 09:42:39.272 [info] Using git "2.34.1" from "git"
+2024-02-26 09:45:55.017 [info] Log level: Info
+2024-02-26 09:45:55.017 [info] Validating found git in: "git"
+2024-02-26 09:45:55.017 [info] Using git "2.34.1" from "git"
+2024-02-26 09:45:55.017 [info] > git rev-parse --show-toplevel [43ms]
+2024-02-26 09:45:55.017 [info] fatal: detected dubious ownership in repository at '/media/sf_Thesis/thesis-eit-latex'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /media/sf_Thesis/thesis-eit-latex
+2024-02-26 09:45:55.092 [info] > git rev-parse --show-toplevel [38ms]
+2024-02-26 09:45:55.092 [info] fatal: detected dubious ownership in repository at '/media/sf_Thesis/thesis-eit-latex'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /media/sf_Thesis/thesis-eit-latex
+2024-02-26 09:45:55.156 [info] > git rev-parse --show-toplevel [23ms]
+2024-02-26 09:45:55.156 [info] fatal: detected dubious ownership in repository at '/media/sf_Thesis/thesis-eit-latex'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /media/sf_Thesis/thesis-eit-latex
+2024-02-26 09:45:55.255 [info] > git rev-parse --show-toplevel [51ms]
+2024-02-26 09:45:55.255 [info] fatal: detected dubious ownership in repository at '/media/sf_Thesis/thesis-eit-latex'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /media/sf_Thesis/thesis-eit-latex
+2024-02-26 09:45:55.343 [info] > git rev-parse --show-toplevel [44ms]
+2024-02-26 09:45:55.343 [info] fatal: detected dubious ownership in repository at '/media/sf_Thesis/thesis-eit-latex'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /media/sf_Thesis/thesis-eit-latex
+2024-02-26 09:45:55.426 [info] > git rev-parse --show-toplevel [37ms]
+2024-02-26 09:45:55.426 [info] fatal: detected dubious ownership in repository at '/media/sf_Thesis/thesis-eit-latex/style-eit-latex'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /media/sf_Thesis/thesis-eit-latex/style-eit-latex
+2024-02-26 09:46:13.770 [info] > git rev-parse --show-toplevel [18ms]
+2024-02-26 09:46:13.770 [info] fatal: detected dubious ownership in repository at '/media/sf_Thesis/thesis-eit-latex'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /media/sf_Thesis/thesis-eit-latex
+2024-02-26 09:46:14.216 [info] > git rev-parse --show-toplevel [14ms]
+2024-02-26 09:46:14.216 [info] fatal: detected dubious ownership in repository at '/media/sf_Thesis/thesis-eit-latex'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /media/sf_Thesis/thesis-eit-latex
+2024-02-26 09:46:44.114 [info] > git rev-parse --show-toplevel [19ms]
+2024-02-26 09:46:44.115 [info] fatal: detected dubious ownership in repository at '/media/sf_Thesis/thesis-eit-latex'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /media/sf_Thesis/thesis-eit-latex
+2024-02-26 09:47:25.221 [info] > git rev-parse --show-toplevel [37ms]
+2024-02-26 09:47:25.221 [info] fatal: detected dubious ownership in repository at '/media/sf_Thesis/thesis-eit-latex'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /media/sf_Thesis/thesis-eit-latex
+2024-02-26 09:48:56.335 [info] > git rev-parse --show-toplevel [33ms]
+2024-02-26 09:48:56.335 [info] fatal: detected dubious ownership in repository at '/media/sf_Thesis/thesis-eit-latex/style-eit-latex'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /media/sf_Thesis/thesis-eit-latex/style-eit-latex
+2024-02-26 09:49:33.890 [info] > git rev-parse --show-toplevel [58ms]
+2024-02-26 09:49:33.890 [info] fatal: detected dubious ownership in repository at '/media/sf_Thesis/thesis-eit-latex'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /media/sf_Thesis/thesis-eit-latex
+2024-02-26 09:50:03.684 [info] > git rev-parse --show-toplevel [52ms]
+2024-02-26 09:50:03.684 [info] fatal: detected dubious ownership in repository at '/media/sf_Thesis/thesis-eit-latex'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /media/sf_Thesis/thesis-eit-latex

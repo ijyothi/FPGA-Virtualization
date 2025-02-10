@@ -1,0 +1,4 @@
+Name: compiler-rt-pure-gcc
+Version: 0
+Description: Alias Dependency Package
+Requires: libgcc_eh-pure libgcc-pure

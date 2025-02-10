@@ -1,0 +1,8 @@
+Name: libc
+Version: 0
+Description: L4 library
+Cflags: bid_allow_stack_protector
+Libs: -lc -luc_c_nonshared.p -lssp_nonshared.p
+Requires: ldscripts libpthread     
+Link_Libs= %{static|static-pie:-lc} 
+Libs_pic= -luc_c_nonshared.p -lssp_nonshared.p

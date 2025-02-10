@@ -1,0 +1,5 @@
+Name: atkins
+Version: 0
+Description: L4 library
+
+Requires: libstdc++ libgtest      

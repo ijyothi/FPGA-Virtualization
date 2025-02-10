@@ -1,0 +1,4 @@
+Name: compiler-rt
+Version: 0
+Description: Alias Dependency Package
+Requires: compiler-rt-gcc
